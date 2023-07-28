@@ -1,0 +1,584 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: light;
+    
+}
+
+#myHeader{
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    position: relative;
+    color: white;
+
+}
+#myHeader:hover{
+    background-color: white;
+    transition: 2s;
+}
+#myHeader:hover .imgH{
+    content: url("./assets/LOGOB2.png");
+    
+
+}
+#myHeader:hover .ulH{
+    color: black;
+    
+}
+
+#myHeader:hover .ico{
+    fill: black;
+}
+.imgH2{
+    width: 240px;
+    margin-top: 15px;
+    margin-right: -170px;
+    display: none;  
+}
+
+.navH{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.ulH{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-around;
+    font-weight: 500;
+    width: 300px;
+}
+.imgH{
+    width: 240px;
+    margin-top: 15px;
+    margin-right: -170px;    
+}
+.iconH {
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.videoI{
+    width: 100%;
+    position: absolute;
+
+}
+
+a,button{
+    text-decoration: none;
+    cursor: pointer;
+}
+.sec_promo{
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px ;
+    padding-top: 30px;
+}
+.P1{
+    font-size: x-large;
+    font-weight: lighter;
+}
+.P2{
+    font-size: xx-large;
+}
+.btnProm{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border:1px solid white;
+    margin-top: 30px;
+    margin-right:20px ;
+}
+.btnProm:hover{
+    color: black;
+    background-color: white;
+    transition: 0.7s;
+}
+.imgbts{
+position: absolute;
+}
+.contentbts{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    top: 250px;
+    text-align: center;
+    left: 80px;
+    
+}
+.btnbts{
+    width: 280px;
+    height: 50px;
+    background-color: transparent ;
+    color: black;
+    border:1.5px solid black;
+    margin-top: 20px;
+    margin-right:20px ;
+    font-weight: 500;
+}
+.btnbts:hover{
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
+.sec_back_to_school{
+    padding-bottom: 415px;
+}
+.sec_sales{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.big_box{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box{
+    
+    width: 325px;
+    height: 490px;
+}
+.img_sales{
+    width: 325px;
+    height: 420px ;
+}
+
+.p_sales1{
+    font-size: large;
+}
+.p_sales2{
+    margin-top: 5px;
+    font-size: large;
+    font-weight: lighter;
+    
+}
+.X{
+    margin-right: 15px;
+}
+.Y:hover{
+    text-decoration: underline;
+}
+.X:hover{
+    text-decoration: underline;
+}
+.box2{
+    width: 670px;
+    height: 850px;
+}
+.box2 img{
+    margin-bottom: 7px;
+    width: 670px;
+    height: 670px;
+}
+.btnsales{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+    border:1.5px solid black;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.btnsales:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    transition: 0.7s;
+
+}
+.ulF a{
+    color: white;
+}
+
+.ulF{
+    list-style: none;
+    color: white;
+    width: 300px;
+    display:flex ;
+    justify-content: space-around;
+    font-size:large;
+
+}
+.secF{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content:  space-between  ;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.sec_footer{
+    padding-top: 20px;
+    background-color: black;
+    width: 100% ;
+}
+.sec_footer img{
+    margin-right: 20px;
+}
+.pF{
+    color: white;
+    text-align: center;
+    padding-bottom:30px;
+}
+/*Social media errro with name contact*/
+.videoC{
+    position: absolute ;
+    top: 97px;
+    width: 1025px;
+}
+.Contact{
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 204px;
+    margin-top: 40px;
+}
+
+.Contact a{
+    text-decoration: none;
+    padding: 40px;
+    color: white;   
+}
+
+/* Conttact us*/
+.ContactC svg{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.ContactC{
+    padding-top:20px ;
+    height: 400px;
+    width: 500px;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: 40px;
+    text-align: center;
+}
+/*search Page*/
+
+.search{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+}
+.search form {
+    background-color: #f0f0f0;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+  }
+
+.search  input {
+    all: unset;
+    font: 16px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+::placeholder {
+    color: black;
+    opacity: 0.7; 
+  }
+
+  .search svg {
+    color: black;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+
+ .search button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXX  SEARCH PAGE  XXXXXXXXXXXXXXX*/
+
+/* MEN PAGE*/
+.bodymen{
+    background-color: black;
+}
+
+.tit_men{
+    color: white;
+    height: 80px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.tit_men2{
+    color: black;
+    letter-spacing: 7px;
+    height: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: lighter;
+}
+a { color: inherit; } 
+
+.sec_show_men{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./assets/BGtest.jpg);
+    background-size: 420px;
+
+}
+.all_box_men{
+    display: flex;
+    justify-content: space-around;
+
+}
+.box_men img{
+    width: 270px;
+
+}
+.box_men{
+    margin-top: 50px; 
+    margin-bottom: 50px;  
+}
+.main_men{
+    background-color: white;
+}
+.sec_col_men{
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.col_men p{
+    margin-top: 7px;
+}
+.col_men{
+    width: 300px;
+    height: 450px;
+    margin-bottom: 60px;
+
+}
+.col_men img{
+    width: 300px;
+    height: 400px ;
+}
+.all_col_men{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cont_men svg {
+    float: right;
+    padding-right: 15px;
+    top: -50px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.cont_men{
+    padding-bottom: 8px;
+    border-bottom: 1px dashed black;
+}
+.heart_men:hover{
+    fill: red;
+}
+
+
+
+/*XXXXXXXXXXXXXX MEN PAGE XXXXXXXXXXXXXXXXX*/
+
+/*USER PAGE*/
+
+.inter_user{
+    height: 600px;
+    width: 900px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-image: url(assets/v1043-049a.jpg);
+    background-size: 1100px;
+}
+.form_user{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.formm_user{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #484848;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.input_user{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    box-shadow:4px 4px #484848;
+}
+.form_user button{
+    height: 40px;
+    margin-top: -40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 350;
+    box-shadow:4px 4px #484848;
+
+
+    
+}
+.form_user button:hover{
+    background: rgb(29,29,29);
+    color: white;    
+}
+
+/*XXXXXXXXXXXX USER PAGE XXXXXXXXXXXXXX*/
+/* COMMING SOON PAGE*/
+
+.sec_comm{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/BGtest.jpg);
+    background-size: 1600px;
+}
+.p_comm{
+    color: #484848;
+    font-size: 80px;
+}
+
+
+/*XXXXXXXXX COMMING SOON PAGE XXXXXXX*/
+
+/* KIDS PAGE*/
+
+.box_kids{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+.sec_show_kids{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    background-color: #f6f6f4;
+    background-size: 420px;
+
+}
+/*XXXXXXXXX KIDS PAGE XXXXXXXXXXXXX*/
+/*  CART PAGE*/
+
+.sec_cart{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: 200px;
+}
+.cart{
+    
+    margin-top: 40px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+
+}
+.cart img{
+    width: 180px;
+}
+.AB p{
+    margin-right: 8px;
+}
+.AB{
+    display: flex;
+    align-items: center;
+}
+.cont_cart{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.cont_cart p{
+    margin-bottom: 30px;
+
+}
+.icon_cart {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 0px;
+    width: 70px;
+    justify-content: space-between;
+}
+.price {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 150%;
+    color: white;
+    
+}
+.price button{
+    width: 300px;
+    font-size: 100%;
+    font-weight: 300;
+    height: 60px;
+    margin-top: 20px;
+}
+.price button:hover{
+    border: 0.5px solid white;
+    background-color: black;
+    color: white;
+} 
+/*XXXXXXXXXXX  CART PAGE XXXXXXXX*/
